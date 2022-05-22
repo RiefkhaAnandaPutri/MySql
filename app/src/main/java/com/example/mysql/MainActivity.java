@@ -20,10 +20,15 @@ public class MainActivity extends AppCompatActivity {
 
     private RecyclerView recyclerView;
     private TemanAdapter adapter;
-    private ArrayList<Teman> temanArrayList;
+    private ArrayList<Teman> temanArrayList = new ArrayList<>();
     //DBcontroller controler = new DBcontroller(this);
     String id,nm,tlp;
     private FloatingActionButton fab;
+    private static final String TAG = MainActivity.class.getSimpleName();
+    private static String url_select = "http://10.0.2.2/umyTI/bacateman.php";
+    private static final String TAG_ID = "id";
+    private static final String TAG_NAMA = "nama";
+    private static final String TAG_TELPON = "telpon";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
