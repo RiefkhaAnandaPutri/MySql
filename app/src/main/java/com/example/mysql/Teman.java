@@ -1,6 +1,7 @@
 package com.example.mysql;
+import java.io.Serializable;
 
-public class Teman {
+public class Teman implements Serializable {
     String id;
     String nama;
     String telpon;
