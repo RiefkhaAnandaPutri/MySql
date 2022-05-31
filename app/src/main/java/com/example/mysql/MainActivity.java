@@ -13,9 +13,12 @@ import android.widget.Toast;
 //import com.example.sqlite.adapter.TemanAdapter;
 //import com.example.sqlite.database.DBcontroller;
 //import com.example.sqlite.database.Teman;
+import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.VolleyLog;
+import com.android.volley.toolbox.JsonArrayRequest;
+import com.android.volley.toolbox.Volley;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import org.json.JSONArray;
@@ -63,10 +66,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public  void BacaData(){
-        requestQueue requestQueue = Volley.
+        RequestQueue requestQueue = Volley.
                 newRequestQueue(getApplicationContext());
 
-        JSONArrayRequest jArr = new JSONArrayRequest(
+        JsonArrayRequest jArr = new JsonArrayRequest(
                 url_select,new Response.Listener<JSONArray>() {
                     @Override
             public void onResponse(JSONArray response
