@@ -3,9 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/.SEMESTER 8/MOBILE ULANG/MySql/app/src/main/res/layout/activity_edit_teman.xml" value="0.1793478260869565" />
         <entry key="..\:/.SEMESTER 8/MOBILE ULANG/MySql/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/.SEMESTER 8/MOBILE ULANG/MySql/app/src/main/res/layout/activity_tambah_teman.xml" value="0.1" />
+        <entry key="..\:/.SEMESTER 8/MOBILE ULANG/MySql/app/src/main/res/layout/popup1.xml" value="0.10989583333333333" />
         <entry key="..\:/.SEMESTER 8/MOBILE ULANG/MySql/app/src/main/res/layout/row_data_teman.xml" value="0.12335359675785208" />
+        <entry key="..\:/.SEMESTER 8/MOBILE ULANG/MySql/app/src/main/res/menu/popup1.xml" value="0.1" />
       </map>
     </option>
   </component>

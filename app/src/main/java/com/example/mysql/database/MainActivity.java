@@ -1,10 +1,9 @@
-package com.example.mysql;
+package com.example.mysql.database;
 
 import  androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -19,6 +18,9 @@ import com.android.volley.VolleyError;
 import com.android.volley.VolleyLog;
 import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.Volley;
+import com.example.mysql.R;
+import com.example.mysql.Teman;
+import com.example.mysql.adapter.TemanAdapter;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import org.json.JSONArray;
@@ -26,7 +28,6 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 
 public class MainActivity extends AppCompatActivity {
 

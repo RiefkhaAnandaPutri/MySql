@@ -1,11 +1,7 @@
-package com.example.mysql;
+package com.example.mysql.adapter;
 
-import android.content.Context;
-import android.content.Intent;
 import android.graphics.Color;
 import android.view.LayoutInflater;
-import android.view.MenuItem;
-import android.widget.PopupMenu;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
@@ -13,6 +9,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.mysql.R;
+import com.example.mysql.Teman;
 
 import java.util.ArrayList;
 

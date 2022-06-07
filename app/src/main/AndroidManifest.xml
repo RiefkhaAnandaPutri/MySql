@@ -12,9 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MySql"
         android:usesCleartextTraffic="true">
-        <activity android:name=".TambahTeman"></activity>
+        <activity android:name=".database.TambahTeman"></activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".database.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
